@@ -290,27 +290,14 @@ ul.contributors{
     padding: 20px;
 }
 
-/* .contributors li {
-    color: #2d2725;
-    font-size: 18px;
-   padding: 0;
-   margin: 0;
-   line-height: 20px;
-   list-style-type: square;
-   
-    
-} */
-
 ul li::before {
     content: "\25A0";
     color: #c96f53;
-    /* font-weight: bold; */
-    /* display: inline-block;  */
-    /* width: 1em; */
     margin-left: -1em;
     margin-right: 5px;
   }
 
+ 
  
 
 .praiseQuote{
