@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>the Anchor: Future Projects</title>
+   <!-- <link rel="stylesheet" href="./tatcStyle.css"> -->
+
+   <link rel="stylesheet" href="./styletest.css">
+
+   <link rel='stylesheet' media='screen and (max-width: 700px)' href='./narrow.css' />
+ <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='./medium.css' />
+ <link rel='stylesheet' media='screen and (min-width: 901px)' href='./wide.css' />
+    <link rel="stylesheet" href="./animate.min.css">
+</head>
+<body>
+    
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html" id="logo"> <img src="./IMAGES/logotest.svg" alt="logo"></a>
+        <a href="./index.html">Home</a>
+        <a href="./Founders.html">Founding Members</a>
+        <a href="./ppandpraise.html">Past productions and Praise</a>
+        <a href="./futureProjects.html" >Future Projects</a>
+        <a href="./workshops.html"class="active">Workshops</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+
+
+
+      <section class="introSection2">
+        <div class="content"> 
+            <h1 class="animated slideInLeft">The Anchor<br>Workshops</h1>
+            
+        <div class="tab">
+            <a href="#contact"> <button>Get in Touch</button></a>
+          </div>  
+        </div>
+    </section>
+    
+    
+    
+
+<div class="productions">
+    <div class="underline">
+        <span>Workshops</span> 
+    </div>
+    <p>The Anchor believes in the power of storytelling through self-representation. Therefore, the company runs workshops that allow spaces for people to tell their own stories.
+    <br>
+    <br>
+    These workshops culminate in theatrical performances that engage audiences and communities with the direct experiences of the performers. The workshops develop the confidence and performance skills of the individuals, enabling a strong sense of ensemble and shared ownership of the outcome.
+    <br>
+    <br>
+    Please contacts us at theanchorth@gmail.com for more information, including workshop outlines.</p>
+</div>
+
+    
+
+      
+   
+    
+    
+    
+    
+<section id="contact">
+    <div class="content contact">
+        <h2>Get in touch</h2>
+        <h3>theanchorth@gmail.com</h3>
+    </div>
+</section>
+    
+    
+    
+    
+    
+<footer>
+    <h6>The Anchor Theatre Company</h6>
+</footer>
+    
+    
+    
+<script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    
+    
+        var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    
+    function openPlay(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+    
+    
+    
+
+</body>
+</html>

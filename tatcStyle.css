@@ -1,0 +1,620 @@
+* {
+    box-sizing: border-box;
+    font-family: poppins; 
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin: 0;
+
+}
+
+.navbg{
+    padding: 55px;
+    background-color: #c96f53;
+}
+
+section {
+    display: table;
+    width: 100%;
+    padding: 0 7%;
+    margin: 0;
+    max-width: none;
+    background-color: #c96f53;
+    height: 80vh;
+}
+
+section:last-of-type {
+    height: 30vh;
+}
+
+section:nth-of-type(2n) {
+    background-color: #ffffff;
+        
+}
+
+section#contact {
+    display: table;
+    width: 100%;
+    padding: 0 7%;
+    margin: 0;
+    margin-top: 8%;
+    max-width: none;
+    background-color: #c96f53;
+    height: 25vh;
+}
+
+.introSection {
+    height: 80vh;
+}
+
+.content {
+    /* vertical-align: middle; */
+    margin: 10% 5%;
+}
+
+.content h1 {
+    color: white;
+    font-size: 5rem;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .content h1 {
+        font-size: 3.5rem;
+    }
+  }
+
+
+.content h2 {
+    color: white;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0 5% 10% 5%;
+}
+
+.contact h2 {
+    color: white;
+    font-size: 5rem;
+    padding: 0;
+    margin: 10% 5% 0 5%;
+}
+.content h3 {
+    color: white;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0 5% 10% 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .content h3 {
+        font-size: 1.5rem;
+    
+    }
+  }
+
+
+p {
+    color: #2d2725;
+    font-size: 18px;
+    
+}
+
+footer {
+    padding: 1% 5%;
+    text-align:center;
+    background-color: #2d2725;
+    color: white;
+}
+
+.quote{
+    margin: 50px 5%;
+}
+
+.quote h1{
+    color: #c96f53;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.quotecite{
+    color: #967f78cb;
+    font-size: 12px;    
+}
+
+.quoteSection{
+    margin: 2% 10%;
+}
+
+
+.btn{
+    display: inline-block;
+    color: white;
+    background-color: #c96f53;
+    padding: 15px 60px;
+    margin: 2% 5% 10% 5%;
+    text-transform: capitalize;
+    border: 2px solid white;
+}
+
+.btn:hover{
+    color: #c96f53;
+    background-color: white;
+}
+a.btn{
+    text-decoration: none;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 25px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #2d2725;
+    text-align: center;
+    padding: 16px 28px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  
+  
+ 
+  
+  .topnav a:hover:not(.active) {
+    color: #393230;
+    border-bottom: 3px solid #2d2725c6;
+  }
+
+
+  #logo:hover {
+    border-bottom: none;
+  }
+
+  #logo{
+      margin: 5px 25px 0px 0px;
+      padding: 0;
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    .topnav a:hover{
+      border-bottom: 0px;
+    }
+    
+  }
+  
+
+  
+  @media screen and (max-width: 1000px) {
+    .topnav a:not(:first-child){
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  .topnav img{
+      height: 60px;
+      
+  }
+
+  .headshotcontainer{
+      margin: 0 5%;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .headshotcontainer img{
+      height: 300px;
+  }
+
+  .headshotcontainer h1{
+    color: #c96f53;
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .headshotcontainer h5{
+    color: #c96f53;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 100px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .headshotcontainer h1 {
+        font-size: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .headshotcontainer h5 {
+        font-size: 1rem;
+        margin-left: 0px;
+    }
+  }
+
+  .biosection{
+    margin: 2% 10%;
+  }
+
+  .biosection p{
+    margin: 5%;
+  }
+
+  hr{
+      margin: 50px 5%;
+      border: 1px solid #c96f53;
+  }
+
+  
+  .underline{
+    margin-top: 80px;
+    background-color: #c96f53;
+    display: inline-block;
+    line-height: 1px;
+    align-items: baseline;
+    padding: 0px 25px 18px 25px;
+  }
+
+  .underline span{
+    
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .underline2{
+    margin-top: 35px;
+    background-color: #c96f53;
+    display: inline-block;
+    line-height: 0px;
+    align-items: baseline;
+    padding: 0px 25px 18px 25px;
+  }
+
+  .underline2 span{
+    
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .productions{
+    margin: 2% 10%;
+}
+
+.productions a{
+    text-decoration: none;
+    color: #c96f53;
+    font-weight: bold;
+}
+
+ul.contributors{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
+
+/* .contributors li {
+    color: #2d2725;
+    font-size: 18px;
+   padding: 0;
+   margin: 0;
+   line-height: 20px;
+   list-style-type: square;
+   
+    
+} */
+
+ul li::before {
+    content: "\25A0";
+    color: #c96f53;
+    /* font-weight: bold; */
+    /* display: inline-block;  */
+    /* width: 1em; */
+    margin-left: -1em;
+    margin-right: 5px;
+  }
+
+ 
+
+.praiseQuote{
+    margin: 50px 2%;
+}
+
+.praiseQuote h1{
+    color: #c96f53;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#twoHearts{
+    background-color: white;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+ 
+  @media screen and (min-width: 1000px) {
+    .column img {
+        opacity: 0.8;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .column img:hover {
+        opacity: 1;
+
+    }
+  }
+
+  .introSection2{
+    display: table;
+    width: 100%;
+    padding: 0 7%;
+    margin: 0;
+    max-width: none;
+    background-color: #c96f53;
+    height: 50vh;
+
+  }
+
+  .accordion {
+    background-color: #c96f53;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  /* .active, .accordion:hover {
+    background-color: #c96f53; 
+    color: white;
+  } */
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+
+
+  /* Style the tab */
+.tab {
+    overflow: hidden;
+    border: none;
+    background-color:  #c96f53;
+    color: white;
+    /* margin: 0 10%; */
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: 2px solid white;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .tablinks {
+        float: none;
+    
+    }
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: white;
+    color: #c96f53;
+  }
+  
+  /* Create an active/current tablink class */
+.tab button.active {
+    background-color: rgb(255, 255, 255);
+    color: #c96f53;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none:
+    border-top: none;
+  }
+
+  section#Graces, #fading{
+      background-color: white;
+  }
+
+  .topnav a.active {
+    color: #2d2725;
+    border-bottom: 3px solid #2d2725;
+    
+  }
+
+  button.accordion{
+      margin-bottom: 25px;
+  }
+
+  /* .accordian img {
+    float: right;
+    display: block;
+  } */
+
+  /* .buttons a{
+    background-color: inherit;
+    float: left;
+    border: 2px solid white;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: white;
+  } */
+
+  .linkBtn a{
+      text-decoration: none;
+      color: white;
+      padding: 15px 30px;
+      
+  }
+  .linkBtn{
+    padding: 15px 30px;
+  }
+
+  .linkBtn a:hover{
+    color: #c96f53;
+}
+
+.link button {
+    background-color: inherit;
+    float: left;
+    border: 2px solid white;
+    outline: none;
+    cursor: pointer;
+    /* padding: 15px 30px; */
+    transition: 0.3s;
+    font-size: 17px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: white;
+  }
+
+  .link button:hover {
+    background-color: white;
+    color: #c96f53;
+  }
+
+  .quotecontainer{
+      display: grid;
+      /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
+      grid-template-columns: 1fr 1fr;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      justify-items: center;
+      grid-gap: 25px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .quotecontainer {
+        grid-template-columns: 1fr
+    }
+  }
+
+  .quotecontainer .qblock{
+      /* width: 500px;
+      height: 500px; */
+      border: 10px solid #c96f53;
+      padding: 20px;
+      color: #c96f53;
+      background-image: url(./IMAGES/ICONS/Quote01.svg);
+      background-repeat: no-repeat;
+  }
+  .cite{
+      color: #2d2725cd;
+      font-size: 0.8rem;
+  }
+
+  .aboutSection{
+    margin: 5% 10%;
+  }
+
+  .biosection span, .biosection a{
+      color: #c96f53;
+      font-weight: bold;
+  }
+
+  .aboutSection span{
+    color: #c96f53;
+    font-weight: bold;
+  }

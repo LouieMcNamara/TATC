@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>the Anchor: Future Projects</title>
+    <!-- <link rel="stylesheet" href="./tatcStyle.css"> -->
+
+    <link rel="stylesheet" href="./styletest.css">
+
+    <link rel='stylesheet' media='screen and (max-width: 700px)' href='./narrow.css' />
+	<link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='./medium.css' />
+	<link rel='stylesheet' media='screen and (min-width: 901px)' href='./wide.css' />
+    <link rel="stylesheet" href="./animate.min.css">
+</head>
+<body>
+    
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html" id="logo"> <img src="./IMAGES/logotest.svg" alt="logo"></a>
+        <a href="./index.html">Home</a>
+        <a href="./Founders.html">Founding Members</a>
+        <a href="./ppandpraise.html">Past productions and Praise</a>
+        <a href="./futureProjects.html" class="active">Future Projects</a>
+        <a href="./workshops.html">Workshops</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+
+
+
+      <section class="introSection2">
+        <div class="content"> 
+            <h1 class="animated slideInLeft">Upcoming<br>Projects</h1>
+            
+        <div class="tab">
+            <button class="tablinks" onclick="openPlay(event, 'Circuit')" id="defaultOpen">Circuit</button>
+            <button class="tablinks" onclick="openPlay(event, 'littleBitch')">Little Bitch</button>
+            <button class="tablinks" onclick="openPlay(event, 'pillowFight')">Pillow Fight</button>
+          </div>  
+        </div>
+    </section>
+    
+    
+    
+    <div id="Circuit" class="tabcontent">
+        <div class="productions">
+            <div class="underline">
+                <span> Circuit</span> 
+            </div>
+                <p>‘Circuit’ aims to make gender expectations explicit in order to develop a realisation amongst the audience that we all are complicit with this societal thinking. We will work with a male actor to explore this idea of the circuit, the treadmill, the routine, the expectation that the female gender experiences within the western society. <br>
+                <br>
+                The performance will take place on a specially designed gym circuit. The performer will continue to run through the circuit, lap by lap, learning as he goes, how to be a ‘correct’ woman, modifying his behaviour and instincts to fit the stereotype. <br>
+                <br>
+                This performance will take place at Canberra’s Art Not Apart festival in March, 2020.</p>
+        </div>
+    </div>
+    
+
+      
+    <div id="littleBitch" class="tabcontent">  
+        <div class="productions">
+                <div class="underline">
+                <span>Little Bitch</span>
+                </div>
+                <p>A piece of physical theatre performed by an all-male cast, Little Bitch explores the notion that societal expectations and pressures are what create gender stereotypes. <br>
+                <br>
+                This will be an extension of circuit, developed at Footscray’s Bluestone Church during the Anchor’s 2020 residency.</p>
+         </div>
+    </div>
+      
+    <div id="pillowFight" class="tabcontent">
+        <div class="productions">
+                <div class="underline">
+                  <span>Pillow Fight</span>
+                </div>
+              <p>In a bid to regain control over her mental state, Kelsie goes to see a psychologist, who offers her the chance to be a part of a new trial therapy that promises to induce a synthetic sense of forgiveness towards the person who has hurt her. <br>
+              <br>
+              An exploration of where justice sits within trauma and forgiveness, this play asks how emotions contribute to our perception of reality, and how important (or not important) memory and emotion are to us in reconstructing the past.</p>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <section id="contact">
+        <div class="content contact">
+            <h2>Get in touch</h2>
+            <h3>theanchorth@gmail.com</h3>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    <footer>
+        <h6>The Anchor Theatre Company</h6>
+      </footer>
+    
+    
+    
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    
+    
+        var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    
+    function openPlay(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+        </script>
+    
+    
+    
+
+</body>
+</html>
