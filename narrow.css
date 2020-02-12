@@ -1,11 +1,21 @@
-
+*{
+  box-sizing: border-box;
+}
     .quotecontainer {
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr;
     }
 
+    .quotecontainer .qblockimg{
+      min-height: 200px;
+      color: #EF266F;
+      background-image: url(./IMAGES/HOMEPAGESLIDER/LBBW01.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
 
     .topnav a:hover{
-      background-color: #c96f53;
+      background-color: #EF266Fcb;
       color: #ffffff;
       border-bottom: 0px;
     }
@@ -16,7 +26,7 @@
       }
 
       .topnav a.active {
-          background-color: #c96f53;
+          background-color: #EF266F;
         color: #ffffff;
         border-bottom: 0px;
         
@@ -110,14 +120,14 @@
 }
 
 .headshotcontainer h1{
-  color: #c96f53;
+  color: #EF266F;
   font-size: 3rem;
   font-weight: bold;
   margin: 0;
 }
 
 .headshotcontainer h5{
-  color: #c96f53;
+  color: #EF266F;
   font-size: 1rem;
   font-weight: bold;
   margin: 0;
@@ -154,7 +164,7 @@
 
 .underline{
     margin-top: 80px;
-    background-color: #c96f53;
+    background-color: #EF266F;
     display: inline-block;
     line-height: 1px;
     align-items: baseline;
@@ -179,7 +189,7 @@
     /* padding: 0 1%; */
     margin: 0;
     max-width: none;
-    background-color: #c96f53;
+    background-color: #EF266F;
     height: 40vh;
 
   }
@@ -211,7 +221,7 @@ section#contact {
     margin: 0;
     margin-top: 8%;
     max-width: none;
-    background-color: #c96f53;
+    background-color: #EF266F;
     height: 15vh;
 }
 
@@ -226,14 +236,14 @@ section#contact {
 }
 
 .headshotcontainer h1{
-  color: #c96f53;
+  color: #EF266F;
   font-size: 3rem;
   font-weight: bold;
   margin: 0;
 }
 
 .headshotcontainer h5{
-  color: #c96f53;
+  color: #EF266F;
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
@@ -257,8 +267,33 @@ ul.contributors{
 
 ul li::before {
     content: "\25A0";
-    color: #c96f53;
+    color: #EF266F;
     line-height: 5px;
     margin-left: -1em;
     margin-right: 5px;
+  }
+
+  .quoteSectionIMG{
+    background-image: url(./IMAGES/HOMEPAGESLIDER/THBW02.jpg);
+      background-size: cover;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 30vh;
+  }
+  .contentQuote{
+    margin: 2%;
+    padding: 2%;
+  }
+  .contentQuote h1{
+    color: white;
+    font-size: 2rem;
+    padding: 0;
+  }
+  .contentQuote .cite{
+    
+      color: rgba(255, 135, 179, 0.68);
+          font-size: 0.8rem;
+     
+  
+   
   }

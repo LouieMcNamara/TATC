@@ -1,5 +1,5 @@
 
-@font-face {
+/* @font-face {
     font-family: poppins;
     src: url(./FONTS/Poppins-Regular.ttf);
   }
@@ -8,15 +8,16 @@
     font-family: poppins;
     src: url(./FONTS/Poppins-Bold.ttf);
     font-weight: bold;
-  }
+  } */
 
-
+  
 
 
 * {
     box-sizing: border-box;
     font-family: poppins; 
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
   }
 
 body{
@@ -26,7 +27,7 @@ body{
 
 .navbg{
     padding: 55px;
-    background-color: #c96f53;
+    background-color: #EF266F;
 }
 
 section {
@@ -35,7 +36,7 @@ section {
     padding: 0 7%;
     margin: 0;
     max-width: none;
-    background-color: #c96f53;
+    background-color: #EF266F;
     height: 80vh;
 }
 
@@ -55,7 +56,7 @@ section#contact {
     margin: 0;
     margin-top: 8%;
     max-width: none;
-    background-color: #c96f53;
+    background-color: #EF266F;
     height: 25vh;
 }
 
@@ -74,7 +75,20 @@ section#contact {
     padding: 0;
 }
 
-
+.contentQuote{
+  margin: 5%;
+  padding: 10% 30% 10% 1%;
+}
+.contentQuote h1{
+  color: white;
+  font-size: 5rem;
+  padding: 0;
+}
+.contentQuote .cite{
+  color: rgba(255, 135, 179, 0.68);
+      font-size: 0.8rem;
+ 
+}
 
 
 .content h2 {
@@ -95,6 +109,7 @@ section#contact {
     font-size: 2rem;
     padding: 0;
     margin: 0 5% 10% 5%;
+    letter-spacing: 2px;
 }
 
 
@@ -109,8 +124,12 @@ p {
 footer {
     padding: 1% 5%;
     text-align:center;
-    background-color: #2d2725;
+    background-color: #EF266F;
     color: white;
+}
+footer h6{
+  margin: 0;
+  padding: 0;
 }
 
 .quote{
@@ -118,7 +137,7 @@ footer {
 }
 
 .quote h1{
-    color: #c96f53;
+    color: #EF266F;
     font-size: 30px;
     font-weight: bold;
     margin: 0;
@@ -137,7 +156,7 @@ footer {
 .btn{
     display: inline-block;
     color: white;
-    background-color: #c96f53;
+    background-color: #EF266F;
     padding: 15px 60px;
     margin: 2% 5% 10% 5%;
     text-transform: capitalize;
@@ -145,7 +164,7 @@ footer {
 }
 
 .btn:hover{
-    color: #c96f53;
+    color: #EF266F;
     background-color: white;
 }
 a.btn{
@@ -181,8 +200,8 @@ a.btn{
  
   
   .topnav a:hover:not(.active) {
-    color: #393230;
-    border-bottom: 3px solid #2d2725c6;
+    color: #05171c;
+    border-bottom: 3px solid #EF266F;
   }
 
 
@@ -214,14 +233,14 @@ a.btn{
   }
 
   .headshotcontainer h1{
-    color: #c96f53;
+    color: #EF266F;
     font-size: 5rem;
     font-weight: bold;
     margin: 0;
   }
 
   .headshotcontainer h5{
-    color: #c96f53;
+    color: #EF266F;
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0;
@@ -240,28 +259,85 @@ a.btn{
 
   hr{
       margin: 50px 5%;
-      border: 1px solid #c96f53;
+      border: 1px solid #EF266F;
   }
 
   
-  .underline{
-    margin-top: 80px;
-    background-color: #c96f53;
+  .underlineG{
+    /* margin-top: 80px;
+    background-color: #EF266F;
     display: inline-block;
     line-height: 1px;
     align-items: baseline;
-    padding: 0px 25px 18px 25px;
+    padding: 0px 25px 18px 25px; */
+    background-image: url(./IMAGES/HOMEPAGESLIDER/TGBW02.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
   }
 
-  .underline span{
-    
+  .underlineG h1{
+    color: #ffffff;
     font-size: 40px;
     font-weight: bold;
   }
 
+  .underlineG h1 span{
+    color: #ffffff;
+    font-size: 15px;
+  }
+
+  .underlineH{
+    /* margin-top: 80px;
+    background-color: #EF266F;
+    display: inline-block;
+    line-height: 1px;
+    align-items: baseline;
+    padding: 0px 25px 18px 25px; */
+    background-image: url(./IMAGES/HOMEPAGESLIDER/THBW03.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
+  }
+
+  .underlineH h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .underlineH h1 span{
+    color: #ffffff;
+    font-size: 15px;
+  }
+
+  .underlineF{
+    /* margin-top: 80px;
+    background-color: #EF266F;
+    display: inline-block;
+    line-height: 1px;
+    align-items: baseline;
+    padding: 0px 25px 18px 25px; */
+    background-image: url(./IMAGES/HOMEPAGESLIDER/FBW01.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
+  }
+
+  .underlineF h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .underlineF h1 span{
+    color: #ffffff;
+    font-size: 15px;
+  }
+
   .underline2{
     margin-top: 35px;
-    background-color: #c96f53;
+    background-color: #EF266F;
     display: inline-block;
     line-height: 0px;
     align-items: baseline;
@@ -280,7 +356,7 @@ a.btn{
 
 .productions a{
     text-decoration: none;
-    color: #c96f53;
+    color: #EF266F;
     font-weight: bold;
 }
 
@@ -292,7 +368,7 @@ ul.contributors{
 
 ul li::before {
     content: "\25A0";
-    color: #c96f53;
+    color: #EF266F;
     margin-left: -1em;
     margin-right: 5px;
   }
@@ -305,7 +381,7 @@ ul li::before {
 }
 
 .praiseQuote h1{
-    color: #c96f53;
+    color: #EF266F;
     font-size: 30px;
     font-weight: bold;
     margin: 0;
@@ -343,13 +419,100 @@ ul li::before {
     padding: 0 7%;
     margin: 0;
     max-width: none;
-    background-color: #c96f53;
+    background-color: #EF266F;
     height: 50vh;
 
   }
 
+  .introSectionIMG{
+    display: table;
+    width: 100%;
+    padding: 0 7%;
+    margin: 0;
+    max-width: none;
+    height: 50vh;
+    background-image: url(./IMAGES/HOMEPAGESLIDER/THBW01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .introSection2IMG{
+    display: table;
+    width: 100%;
+    padding: 0 7%;
+    margin: 0;
+    max-width: none;
+    height: 50vh;
+    background-image: url(./IMAGES/HOMEPAGESLIDER/TGBW01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .introSection3IMG{
+    display: table;
+    width: 100%;
+    padding: 0 7%;
+    margin: 0;
+    max-width: none;
+    height: 50vh;
+    background-image: url(./IMAGES/HOMEPAGESLIDER/TGBW03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .introSection4IMG{
+    display: table;
+    width: 100%;
+    padding: 0 7%;
+    margin: 0;
+    max-width: none;
+    height: 50vh;
+    background-image: url(./IMAGES/HOMEPAGESLIDER/LBBW03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .introSection5IMG{
+    display: table;
+    width: 100%;
+    padding: 0 7%;
+    margin: 0;
+    max-width: none;
+    height: 50vh;
+    background-image: url(./IMAGES/HOMEPAGESLIDER/TABW01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  #contact{
+  background-image: url(./IMAGES/HOMEPAGESLIDER/LBBW02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
   .accordion {
-    background-color: #c96f53;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #EF266F;
+    color: #EF266F;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .accordion:hover {
+    background-color: #EF266F;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -362,7 +525,7 @@ ul li::before {
   }
   
   /* .active, .accordion:hover {
-    background-color: #c96f53; 
+    background-color: #EF266F; 
     color: white;
   } */
   
@@ -379,16 +542,16 @@ ul li::before {
 .tab {
     overflow: hidden;
     border: none;
-    background-color:  #c96f53;
+    /* background-color:  #EF266F; */
     color: white;
     /* margin: 0 10%; */
   }
   
   /* Style the buttons inside the tab */
   .tab button {
-    background-color: inherit;
+    background-color: rgba(0, 0, 0, 0.467);
     float: left;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     outline: none;
     cursor: pointer;
     padding: 15px 30px;
@@ -396,7 +559,9 @@ ul li::before {
     font-size: 17px;
     margin-right: 5%;
     margin-bottom: 5%;
-    color: white;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
   }
 
   @media only screen and (max-width: 600px) {
@@ -409,13 +574,13 @@ ul li::before {
   /* Change background color of buttons on hover */
   .tab button:hover {
     background-color: white;
-    color: #c96f53;
+    color: #EF266F;
   }
   
   /* Create an active/current tablink class */
 .tab button.active {
     background-color: rgb(255, 255, 255);
-    color: #c96f53;
+    color: #EF266F;
   }
   
   /* Style the tab content */
@@ -430,8 +595,8 @@ ul li::before {
   }
 
   .topnav a.active {
-    color: #2d2725;
-    border-bottom: 3px solid #2d2725;
+    color: #05171c;
+    border-bottom: 5px solid #EF266F;
     
   }
 
@@ -469,7 +634,7 @@ ul li::before {
   }
 
   .linkBtn a:hover{
-    color: #c96f53;
+    color: #EF266F;
 }
 
 .link button {
@@ -488,7 +653,7 @@ ul li::before {
 
   .link button:hover {
     background-color: white;
-    color: #c96f53;
+    color: #EF266F;
   }
 
   .quotecontainer{
@@ -499,34 +664,66 @@ ul li::before {
       margin-bottom: 5%;
       justify-items: center;
       grid-gap: 25px;
+      min-height: 300px;
+      background-color: #EF266F6b;
+      padding: 2%;
   }
 
   
 
-  .quotecontainer .qblock{
-      /* width: 500px;
-      height: 500px; */
-      border: 10px solid #c96f53;
-      padding: 20px;
-      color: #c96f53;
-      background-image: url(./IMAGES/ICONS/Quote01.svg);
+  .quotecontainer .qblockimg{
+      min-width: 500px;
+      color: #EF266F;
+      background-image: url(./IMAGES/HOMEPAGESLIDER/LBBW01.jpg);
+      background-size: cover;
+      background-position: center;
       background-repeat: no-repeat;
   }
-  .qblock .cite{
-      color: #2d2725a3;
+  .content .cite{
+      color: #ffffffb4;
       font-size: 0.8rem;
   }
+
+  .quoteSectionIMG{
+    background-image: url(./IMAGES/HOMEPAGESLIDER/THBW02.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 30vh;
+  }
+
+  .quoteSectionIMG h1{
+    font-size: 3rem;
+  }
+
 
   .aboutSection{
     margin: 5% 10%;
   }
 
   .biosection span, .biosection a{
-      color: #c96f53;
+      color: #EF266F;
       font-weight: bold;
   }
 
   .aboutSection span{
-    color: #c96f53;
+    color: #EF266F;
     font-weight: bold;
   }
+
+  .aboutSectionFlex{
+    margin: 5% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .aboutSectionFlex img{
+    max-height: 500px;
+    min-height: 100px;
+  }
+
+  .aboutSectionFlex .box{
+    padding: 2%;
+  }
+
+

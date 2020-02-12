@@ -5,7 +5,7 @@
 
 
     .topnav a:hover{
-      background-color: #c96f53;
+      background-color: #EF266F;
       color: #ffffff;
       border-bottom: 0px;
     }
@@ -16,7 +16,7 @@
       }
 
       .topnav a.active {
-          background-color: #c96f53;
+          background-color: #EF266F;
         color: #ffffff;
         border-bottom: 0px;
         
@@ -95,7 +95,7 @@ section#contact {
     margin: 0;
     margin-top: 8%;
     max-width: none;
-    background-color: #c96f53;
+    background-color: #EF266F;
     height: 10vh;
 }
 
@@ -110,14 +110,14 @@ section#contact {
 }
 
 .headshotcontainer h1{
-  color: #c96f53;
+  color: #EF266F;
   font-size: 4rem;
   font-weight: bold;
   margin: 0;
 }
 
 .headshotcontainer h5{
-  color: #c96f53;
+  color: #EF266F;
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
