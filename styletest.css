@@ -98,12 +98,7 @@ section#contact {
     margin: 0 5% 10% 5%;
 }
 
-.contact h2 {
-    color: white;
-    font-size: 5rem;
-    padding: 0;
-    margin: 10% 5% 0 5%;
-}
+
 .content h3 {
     color: white;
     font-size: 2rem;
@@ -121,7 +116,7 @@ p {
     
 }
 
-footer {
+/* footer {
     padding: 1% 5%;
     text-align:center;
     background-color: #EF266F;
@@ -130,7 +125,60 @@ footer {
 footer h6{
   margin: 0;
   padding: 0;
+} */
+
+.footerContainer{
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10%;
+  background-image: url(./IMAGES/HOMEPAGESLIDER/LBBW02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5% 10%;
 }
+
+/* .fs{
+  background-color: aqua;
+} */
+
+
+
+.footerLinks{
+ margin-top: 15px;
+}
+
+.footerLinks a{
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 15px;
+  margin: 0;
+}
+
+.footerLinks a:hover{
+  display: block;
+  color: #ffffff;
+  background-color: #EF266F;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 15px;
+  margin: 0;
+}
+
+.title{
+  border-bottom: 3px solid white;
+  padding: 10px;
+}
+
+.title h4{
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
 
 .quote{
     margin: 50px 5%;
@@ -360,6 +408,12 @@ a.btn{
     font-weight: bold;
 }
 
+.productions span{
+  color: #EF266F;
+  font-weight: bold;
+}
+
+
 ul.contributors{
     list-style-type: none;
     margin: 0;
@@ -485,10 +539,25 @@ ul li::before {
     margin: 0;
     max-width: none;
     height: 50vh;
-    background-image: url(./IMAGES/HOMEPAGESLIDER/TABW01.jpg);
+    background-image: url(./IMAGES/HOMEPAGESLIDER/WORKSHOPS01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+  }
+
+  .introSection6IMG{
+    display: table;
+    width: 100%;
+    padding: 0 7%;
+    margin: 0;
+    max-width: none;
+    
+    background-image: url(./IMAGES/HOMEPAGESLIDER/TABW01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 50vh;
 
   }
 
@@ -513,11 +582,11 @@ ul li::before {
 
   .accordion:hover {
     background-color: #EF266F;
+    border: 2px solid #EF266F;
     color: white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
@@ -727,3 +796,46 @@ ul li::before {
   }
 
 
+.websiteLink{
+  text-decoration: none;
+  border: 3px solid #EF266F;
+  padding: 15px 30px;
+}
+
+.websiteLink:hover{
+  text-decoration: none;
+  border: 3px solid #EF266F;
+  background-color: #EF266F;
+  color: #ffffff;
+  padding: 15px 30px;
+}
+
+video{
+  margin: 2% 10%;
+}
+
+.contactContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  align-items: center;
+  padding: 5%;
+  
+}
+
+.contactContainer h5{
+  color: rgb(31, 31, 31);
+  font-size: 2em;
+  /* background-color: rgb(0, 131, 88); */
+  padding: 15px;
+  border-bottom: 3px solid #EF266F;
+  margin: 0 0 4% 0;
+}
+
+/* .contactColumn{
+  padding: 10%;
+} */
+
+.contactColumn img{
+  padding: 8%;
+}

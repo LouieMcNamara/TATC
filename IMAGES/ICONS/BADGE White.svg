@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="161px" height="161px" viewBox="0 0 161 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>BADGE White</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-PPP-FULL" transform="translate(-1224.000000, -2617.000000)">
+            <g id="FOOTER" transform="translate(0.000000, 2576.000000)">
+                <g id="BADGE-White" transform="translate(1224.000000, 41.000000)">
+                    <path d="M88.1119113,91.5367376 L74.5,52.6850671 L60.8880887,91.5367376 L88.1119113,91.5367376 Z M93.0857338,105.486991 L56.0457755,105.486991 L49.5007621,124 L30,124 L64.0304704,33 L85.101039,33 L119,124 L99.4992379,124 L93.0857338,105.486991 Z" id="Fill-34" fill="#FFFFFF"></path>
+                    <polygon id="Fill-35" fill="#FFFFFF" points="108 124 128 124 128 105 108 105"></polygon>
+                    <polygon id="Stroke-36" stroke="#2B2225" stroke-width="1.297" points="108 124 128 124 128 105 108 105"></polygon>
+                    <path d="M0,161 L161,161 L161,0 L0,0 L0,161 Z M10.0859598,150.91404 L150.91404,150.91404 L150.91404,10.0859598 L10.0859598,10.0859598 L10.0859598,150.91404 Z" id="Fill-37" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
