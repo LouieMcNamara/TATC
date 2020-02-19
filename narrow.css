@@ -307,9 +307,9 @@ ul li::before {
     background-image: url(./IMAGES/HOMEPAGESLIDER/LBBW02.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center;
+      background-position: left;
       padding: 5% 10%;
-      height: 50vh;
+      height: 70vh;
   }
 
 
@@ -319,13 +319,13 @@ ul li::before {
     grid-template-columns: 1fr;
     align-items: center;
     padding: 5%;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     
   }
   
   .contactContainer h5{
     color: rgb(31, 31, 31);
-    font-size: 2em;
+    font-size: 1em;
     /* background-color: rgb(0, 131, 88); */
     padding: 15px;
     border-bottom: 3px solid #EF266F;
@@ -334,5 +334,11 @@ ul li::before {
   
   
   .contactColumn img{
-    padding: 8%;
+    display: none;
+    /* padding: 2%; */
+  }
+
+
+  .aboutSection{
+    margin: 10%;
   }

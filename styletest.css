@@ -780,7 +780,7 @@ ul li::before {
     font-weight: bold;
   }
 
-  .aboutSectionFlex{
+  /* .aboutSectionFlex{
     margin: 5% 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -793,7 +793,7 @@ ul li::before {
 
   .aboutSectionFlex .box{
     padding: 2%;
-  }
+  } */
 
 
 .websiteLink{
