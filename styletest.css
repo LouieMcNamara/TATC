@@ -147,7 +147,16 @@ footer h6{
 
 .footerLinks{
  margin-top: 15px;
+ display:inline-block;
+ 
 }
+
+.footerLinks img{
+  width: 30px;
+  margin-right: 20px;
+  vertical-align: middle;
+ }
+
 
 .footerLinks a{
   display: block;
@@ -156,6 +165,7 @@ footer h6{
   font-size: 15px;
   padding: 15px;
   margin: 0;
+  
 }
 
 .footerLinks a:hover{
@@ -359,6 +369,35 @@ a.btn{
     font-size: 15px;
   }
 
+
+
+
+
+  .underlineC{
+    /* margin-top: 80px;
+    background-color: #EF266F;
+    display: inline-block;
+    line-height: 1px;
+    align-items: baseline;
+    padding: 0px 25px 18px 25px; */
+    background-image: url(./IMAGES/HOMEPAGESLIDER/CBW01.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
+  }
+
+  .underlineC h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .underlineC h1 span{
+    color: #ffffff;
+    font-size: 15px;
+  }
+  
+
   .underlineF{
     /* margin-top: 80px;
     background-color: #EF266F;
@@ -485,7 +524,7 @@ ul li::before {
     margin: 0;
     max-width: none;
     height: 50vh;
-    background-image: url(./IMAGES/HOMEPAGESLIDER/THBW01.jpg);
+    background-image: url(./IMAGES/HOMEPAGESLIDER/LBBW00.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -497,7 +536,7 @@ ul li::before {
     margin: 0;
     max-width: none;
     height: 50vh;
-    background-image: url(./IMAGES/HOMEPAGESLIDER/TGBW01.jpg);
+    background-image: url(./IMAGES/HOMEPAGESLIDER/THBW01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
