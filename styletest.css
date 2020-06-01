@@ -100,7 +100,13 @@ section#contact {
   padding: 0;
 }
 .contentQuote .cite{
-  color: rgba(255, 135, 179, 0.68);
+  color: rgba(255, 255, 255, 0.68);
+      font-size: 0.8rem;
+ 
+}
+
+.contentQuote .cite2{
+  color: rgba(255, 255, 255, 0.68);
       font-size: 0.8rem;
  
 }
@@ -540,7 +546,7 @@ ul li::before {
     margin: 0;
     max-width: none;
     height: 50vh;
-    background-image: url(./IMAGES/HOMEPAGESLIDER/TGBW01.jpg);
+    background-image: url(./IMAGES/HOMEPAGESLIDER/threegracesquoteimage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
