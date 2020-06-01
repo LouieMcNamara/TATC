@@ -137,12 +137,12 @@
     height: 350px;
 }
 
-.headshotcontainer h1{
+/* .headshotcontainer h1{
   color: #EF266F;
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: bold;
   margin: 0;
-}
+} */
 
 .headshotcontainer h5{
   color: #EF266F;
@@ -255,7 +255,7 @@ section#contact {
 
 .headshotcontainer h1{
   color: #EF266F;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin: 0;
 }
@@ -292,7 +292,7 @@ ul li::before {
   }
 
   .quoteSectionIMG{
-    background-image: url(./IMAGES/HOMEPAGESLIDER/THBW02.jpg);
+    background-image: url(./IMAGES/HOMEPAGESLIDER/twoheartsquoteimage.jpg);
       background-size: cover;
       background-position: left;
       background-repeat: no-repeat;
@@ -319,7 +319,7 @@ ul li::before {
 
 
   .footerContainer{
-    margin-top: 5%;
+    margin-top: 10%;
     display: grid;
     grid-template-columns: 1fr;
     background-image: url(./IMAGES/HOMEPAGESLIDER/LBBW02.jpg);
@@ -327,8 +327,8 @@ ul li::before {
       background-size: cover;
       background-position: left;
       padding: 5% 10%;
-      height: 70vh;
-      margin-bottom: 50px;
+      height: 50vh;
+      margin-bottom: 15px;
   }
 
 
