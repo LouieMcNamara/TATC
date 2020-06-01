@@ -88,6 +88,24 @@
     padding: 0;
 }
 
+.contenthome {
+  /* vertical-align: middle; */
+  margin: 10% 2%;
+}
+
+.contenthome h1 {
+  color: white;
+  font-size: 3rem;
+  padding: 0;
+}
+
+.contenthome h1 span{
+  font-size: 5.5rem;
+}
+
+
+
+
 .content h2 {
     color: white;
     font-size: 1.5rem;

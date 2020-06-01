@@ -75,6 +75,21 @@ section#contact {
     padding: 0;
 }
 
+.contenthome {
+  /* vertical-align: middle; */
+  margin: 10% 5%;
+}
+
+.contenthome h1 {
+  color: white;
+  font-size: 3.5rem;
+  padding: 0;
+}
+
+.contenthome h1 span{
+  font-size: 7rem;
+}
+
 .contentQuote{
   margin: 5%;
   padding: 10% 30% 10% 1%;
@@ -308,7 +323,8 @@ a.btn{
   
 
   .biosection{
-    margin: 2% 10%;
+    margin: 2% 10% 10% 10%;
+  
   }
 
   .biosection p{
@@ -474,7 +490,7 @@ ul li::before {
 }
 
 .praiseQuote h1{
-    color: #EF266F;
+    color: #05171c;
     font-size: 30px;
     font-weight: bold;
     margin: 0;
@@ -524,7 +540,7 @@ ul li::before {
     margin: 0;
     max-width: none;
     height: 50vh;
-    background-image: url(./IMAGES/HOMEPAGESLIDER/LBBW00.jpg);
+    background-image: url(./IMAGES/HOMEPAGESLIDER/TGBW01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -639,7 +655,7 @@ ul li::before {
   
   .panel {
     padding: 0 18px;
-    display: none;
+    /* display: none; */
     background-color: white;
     overflow: hidden;
     margin-bottom: 25px;
@@ -671,6 +687,18 @@ ul li::before {
     font-weight: bold;
     font-size: 1rem;
   }
+
+
+.tablinks a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.tablinks a:hover{
+  text-decoration: none;
+  color: #EF266F;
+}
+
 
   @media only screen and (max-width: 600px) {
     .tablinks {
@@ -793,7 +821,7 @@ ul li::before {
   }
 
   .quoteSectionIMG{
-    background-image: url(./IMAGES/HOMEPAGESLIDER/THBW02.jpg);
+    background-image: url(./IMAGES/HOMEPAGESLIDER/twoheartsquoteimage.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -801,6 +829,18 @@ ul li::before {
   }
 
   .quoteSectionIMG h1{
+    font-size: 3rem;
+  }
+
+  .quoteSectionIMG2{
+    background-image: url(./IMAGES/HOMEPAGESLIDER/littlebitchquoteimage.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 30vh;
+  }
+
+  .quoteSectionIMG2 h1{
     font-size: 3rem;
   }
 
